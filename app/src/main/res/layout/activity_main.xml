@@ -28,5 +28,15 @@ android:background="@color/colorPrimaryDark"
         android:layout_below="@+id/title"
         android:layout_alignParentBottom="true" />
 
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="Download"
+        android:id="@+id/button"
+        android:onClick="myClickHandler"
+        android:layout_alignBottom="@+id/title"
+        android:layout_toRightOf="@+id/title"
+        android:layout_toEndOf="@+id/title" />
+
 
 </RelativeLayout>

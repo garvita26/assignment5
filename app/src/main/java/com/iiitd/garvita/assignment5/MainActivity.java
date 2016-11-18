@@ -39,10 +39,9 @@ public class MainActivity extends AppCompatActivity {
 
         mtextView = (TextView) findViewById(R.id.data);
         mtextView.setMovementMethod(new ScrollingMovementMethod());
-        myClickHandler();
     }
 
-    public void myClickHandler() {
+    public void myClickHandler(View view) {
 
         ConnectivityManager connMgr = (ConnectivityManager)
                 getSystemService(Context.CONNECTIVITY_SERVICE);
